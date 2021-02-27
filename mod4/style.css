@@ -69,16 +69,6 @@ main a:hover {
     color: #ffd1d4ed;
 }
 
-td a:after {
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    font-size: 8pt;
-    position: relative;
-    margin-left: 3px;
-    top: -5px;
-    content: "\f35d";
-}
-
 table {
     margin: auto;
     margin-bottom: 10px;
