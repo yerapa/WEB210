@@ -93,8 +93,8 @@ td:nth-child(1) {
 }
 
 .content-skip{
-    font-size: 13pt;
-    color: #ececec;
+    font-size: 14pt;
+    color: #ffffff;
     text-decoration: underline;
     font-style: italic;
     display: block; /* <a> is inlined by default */
