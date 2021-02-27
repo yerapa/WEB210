@@ -59,7 +59,7 @@ nav a {
 
 main {
     background-color: #3b2f33;
-    padding-bottom: 1em;
+    padding: 2em;
 }
 main a {
     color: #d24d58;
@@ -67,6 +67,16 @@ main a {
 
 main a:hover {
     color: #ffd1d4ed;
+}
+
+td a:after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 8pt;
+    position: relative;
+    margin-left: 3px;
+    top: -5px;
+    content: "\f35d";
 }
 
 table {
@@ -82,6 +92,10 @@ th, td {
 
 th {
     background-color: #d24d5878;
+}
+
+td:nth-child(1) {
+    border-right: 1px solid transparent;
 }
 
 .content-skip{
