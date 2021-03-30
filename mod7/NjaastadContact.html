@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--IE version rendering output-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>WEB210 - Giselle Njaastad - Contact Form</title>
+</head>
+<body>
+    <h1>Giselle Njaastad - Forms</h1>
+    <form action="http://webdevbasics.net/scripts/demo.php" method="post">
+        <label for="firstname">First Name: </label>
+        <input type="text" id="firstname"><br><br>
+        <label for="lastname">Last Name: </label>
+        <input type="text" id="lastname"><br><br>
+        
+        <!--fielset-->
+        <fieldset>
+            <legend>How did you learn about our website?</legend>
+            <input type="radio" id="searchengine" name="webfind">
+            <label for="searchengine">Search Engine</label><br>
+            <input type="radio" id="referred" name="webfind">
+            <label for="referred">Referred by a Friend</label><br>
+            <input type="radio" id="twitter" name="webfind">
+            <label for="twitter">Twitter</label><br>
+            <input type="radio" id="other" name="webfind">
+            <label for="other">Other</label>
+        </fieldset><br>
+
+        <label for="comments">Comments or Questions:</label><br>
+        <textarea id="comments"></textarea><br><br>
+        <input type="reset" value="Reset">
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
