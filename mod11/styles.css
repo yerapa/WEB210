@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Padauk&display=swap');
+
+body {
+    background-color: #e9e3d4;
+    background-image: url(lace.jpg);
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Padauk', sans-serif;
+    font-size: 16pt;
+    margin: 0;
+}
+
+#wrapper {
+    background-color: #faf1f0;
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+#wrapper p {
+    padding-bottom: 1em;
+}
+
+.nav-helper {
+    color: #b15563;
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 15pt;
+}
+
+.nav-helper:hover {
+    color: #e28290;
+}
+
+#logo {
+    font-family: 'Great Vibes', cursive;
+    color: #fff6f2;
+    background-color: #4d4145;
+    background-image: url('logo_frame.png');
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: 500px;
+    font-size: 36pt;
+    text-align: center;
+    font-weight: bold;
+    padding: 60px;
+    padding-top: 67px;
+}
+
+h1 {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    color: #382d30;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+}
+
+h2 {
+    color: #382d30;
+    margin: 2px;
+}
+
+.highlight {
+    font-size: 19pt;
+}
+
+#nav {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 24pt;
+    text-align: center;
+    padding: 10px;
+    padding-bottom: 20px;
+    background-color: #4d4145;
+}
+
+#nav a:link {
+    color: #e28290;
+    text-decoration: none;
+    padding-right: 7px;
+    padding-left: 7px;
+}
+
+#nav a:visited {
+    font-size: 3em;
+    color: #e28290;
+}
+
+#nav a:hover {
+    color: #ffe7e3;
+}
+
+#content {
+    padding: 1em;
+}
+
+#content img {
+    margin: 5px;
+    margin-right: 15px;
+    float: left;
+    border: 5px solid black;
+}
+
+input[type=text], input[type=tel] {
+    padding: 5px;
+    font-size: 12pt;
+}
+
+input[type=submit]{
+    font-size: 12pt;
+    padding: 7px;
+}
+
+#footer {
+    color: #fff6f2;
+    text-align: center;
+    padding: 1em;
+    background-color: #4d4145;
+}
